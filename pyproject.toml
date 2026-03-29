@@ -1,0 +1,15 @@
+[project]
+name = "proyecto-sam"
+version = "0.1.0"
+description = "Procesador de archivos SAM con MAPQ"
+authors = [{ name = "Javier Adan-Jimenez" }]
+dependencies = [
+    "rich",
+]
+
+[tool.uv]
+
+[tool.uv.workspace]
+members = [
+    "proyecto_sam2",
+]
