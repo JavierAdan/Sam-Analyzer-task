@@ -8,7 +8,7 @@ This project uses the following **Dependencies**:
   - rich
   - NextFlow 23
  
-**# 1. Initialize the environment with uv**
+**Initialize the environment with uv**
 
 $ uv init project-sam
 
