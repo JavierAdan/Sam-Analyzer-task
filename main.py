@@ -1,28 +1,3 @@
-#Nombre script: main.py
-#Script que procese un archivo.sam 
-#recibir por comandos la ruta del fichero
-#lectura fichero línea a línea
-#ignorar las @
-#Extraer el MAPQ (columna 5)
-#Contado de lecturas con MAPQ=60
-#Print Total lecturas alineadas (son todas las no cabecera)
-#Número de lecturas MAPQ = 60
-#% Correspondiente del total
-
-# Input: python3 main.py ~/dia9/nf/2-Align/WT.sam
-#Salida esperada: "Lecturas alineadas total: 153284"
-#"Lecturas con MAPQ = 60 : 81234"
-# "Porcentaje: 53.0 % "
-#Uso obligatorio de UV "uv init proyecto-sam"
-#uv add rich (y usar esto para formatear la salida)
-#Tendré que poner un chequeador de que uv está instalado en el PC. 
-#crear repositorio en GitHub
-# Debe incluir un : main.py, pyproject.toml, main.nf y un README.md
-#workflow de NF que reciba --sam como parámetro, ejecute proceso "analyze_sam"
-#llamar al script python con UV
-#sudo apt install pip
-#pip install uv
-#uv add rich 
 #!/usr/bin/env python3
 import sys
 import subprocess
