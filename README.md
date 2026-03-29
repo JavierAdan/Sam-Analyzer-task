@@ -10,6 +10,7 @@ This project uses the following **Dependencies**:
 **# 1. Initialize the environment with uv**
 
 $ uv init project-sam
+
 $ uv add rich
 
 **The command line should look like this:**
