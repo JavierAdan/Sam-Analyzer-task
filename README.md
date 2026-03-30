@@ -31,4 +31,9 @@ It contains:
 - Corrupted lines
 - Non-numeric MAPQ values
 
+The program has 4 main files besides the example and README: 
+- main.py. This is the Python script which checks uv and analyzes the sam file.
+- pyproject.toml. This is the information for uv to use its dependencies.
+- sam_Analyzer.nf. Script in NextFlow using the main.py.
+- memoria_final_Task.odt. A document explaining the program for the course.
 
