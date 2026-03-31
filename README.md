@@ -8,7 +8,8 @@ This project uses the following **Dependencies**:
   - rich
   - NextFlow 23
  
-**Initialize the environment with uv**
+**Install and initialize the environment with uv**
+$ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 $ uv init project-sam
 
